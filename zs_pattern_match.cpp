@@ -4,11 +4,6 @@ using namespace std;
 void z_match(string text, string pat);
 void calc_z_array(string text, int z[]);
 
-void print_array(int z[], int l){
-    for (int i=0;i<l;i++)
-        printf("%d ", z[i]);
-    printf("\n");
-}
 
 void z_match(string text, string pat){
     string full_string = pat + '$' + text;
