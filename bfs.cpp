@@ -61,5 +61,7 @@ int main(){
 
     g.bfs(2);
 
+    cout << "\n";
+
     return 0;
 }

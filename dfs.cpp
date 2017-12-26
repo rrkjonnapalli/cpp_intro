@@ -38,13 +38,14 @@ void Graph::dfs_util(int v, bool visited[]){
 void Graph::dfs(int v){
     bool *visited = new bool[v];
 
-    memset(visited, false, sizeof(visited));
+    memset(visited, false, sizeof visited);
     
     dfs_util(v, visited);
 }
 
 int main(){
 
+    std::ios_base::sync_with_stdio(false);
 
     Graph g(4);
     g.add_edge(0, 1);

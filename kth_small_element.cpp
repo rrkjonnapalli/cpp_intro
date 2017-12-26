@@ -3,9 +3,9 @@
 int kth_smallest_element(int arr[], int l, int r, int k);
 int partition(int arr[], int l, int r);
 int random_partition(int arr[], int l, int r);
+void swap(int *x, int *y);
 
 using namespace std;
-void swap(int *x, int *y);
 
 void swap(int *x, int *y){
 	int temp = *x;
